@@ -12,7 +12,7 @@ import {Topics,Article} from './components/ReadList.js'
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename='/src'>
         <div className="App">
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
